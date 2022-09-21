@@ -41,7 +41,7 @@ const Home = (props) => {
 
   let actualWalletFunds = homeData.walletFunds.map(row => (
     console.log("metaMaskBalance: ", metaMaskBalance),
-    row.fundName==='tEVMOS'? {...row, value: truncate(metaMaskBalance), amount: truncate(metaMaskBalance * 1.79637372)}: row
+    row.fundName==='Eth'? {...row, value: truncate(metaMaskBalance), amount: truncate(metaMaskBalance * 1.79637372)}: row
   //let bal = Math.trunc(metaMaskBalance * Math.pow(10, 4)) / Math.pow(10, 4)
   ))
 
