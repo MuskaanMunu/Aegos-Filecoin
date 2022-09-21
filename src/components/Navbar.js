@@ -77,7 +77,7 @@ const Navbar = (props) => {
                 <Tooltip
                   TransitionComponent={Zoom}
                   arrow
-                  title={currentAccount ? "Switch Network to Evmos testnet" :  ""}
+                  title={currentAccount ? "Switch Network to Rinkeby testnet" :  ""}
                 >
                   <Button size="small" variant="outlined" onClick={connectWallet}>
                     {currentAccount ? "Switch Network" :  "Connect Wallet"}
